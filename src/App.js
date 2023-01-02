@@ -1,10 +1,11 @@
 import './App.css';
+import Navbar from './components/Shared/Navbar';
 
 function App() {
   return (
-    <div>
-      <h2 className='text-7xl'>React shop</h2>
-    </div>
+    <>
+      <Navbar></Navbar>
+    </>
   );
 }
 
