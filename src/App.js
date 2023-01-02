@@ -1,10 +1,13 @@
 import './App.css';
-import Navbar from './components/Shared/Navbar';
+import Navbar from './components/Navbar/Navbar';
+import PageRoutes from './PageRoutes';
 
 function App() {
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar>
+        <PageRoutes></PageRoutes>
+      </Navbar>
     </>
   );
 }
