@@ -48,7 +48,7 @@ const Navbar = () => {
 
                         {/* Mobile And Tab Screen NavBar */}
                         <div className='flex justify-between items-center content-center lg:hidden'>
-                            <div className='mr-3'>
+                            <div className='mr-5'>
                                 <button
                                     onClick={themeChanger}
                                     className="text"
@@ -68,26 +68,26 @@ const Navbar = () => {
                         <ul className="menu menu-horizontal px-1">
                             <li><NavLink className={({ isActive }) =>
                                 isActive
-                                    ? "text-lg font-bold text success mr-2"
-                                    : "text-lg font-bold text duration-300 mr-2"
+                                    ? "text-lg font-bold text-black success mr-2"
+                                    : "text-lg font-bold text mr-2"
                             } to='/'>Home</NavLink></li>
                             <li><NavLink className={({ isActive }) =>
                                 isActive
-                                    ? "text-lg font-bold text success mr-2"
-                                    : "text-lg font-bold text duration-300 mr-2"
+                                    ? "text-lg font-bold text-black success mr-2"
+                                    : "text-lg font-bold text mr-2"
                             } to='/about'>About</NavLink></li>
                             <li><NavLink className={({ isActive }) =>
                                 isActive
-                                    ? "text-lg font-bold text success mr-2"
-                                    : "text-lg font-bold text duration-300 mr-2"
+                                    ? "text-lg font-bold text-black success mr-2"
+                                    : "text-lg font-bold text mr-2"
                             } to='/contact'>Contact</NavLink></li>
                             <li><NavLink className={({ isActive }) =>
                                 isActive
-                                    ? "text-lg font-bold text success mr-2"
-                                    : "text-lg font-bold text duration-300 mr-2"
+                                    ? "text-lg font-bold text-black success mr-2"
+                                    : "text-lg font-bold text mr-2"
                             } to='/login'>Login</NavLink></li>
                             <div className='hidden lg:flex justify-between items-center content-center'>
-                                <div className='mr-3'>
+                                <div className='ml-3'>
                                     <button
                                         onClick={themeChanger}
                                         className="text"
