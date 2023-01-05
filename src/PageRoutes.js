@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
+import Cart from './components/Cart/Cart';
 import NotFound from './components/NotFound';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
@@ -16,6 +17,7 @@ const PageRoutes = () => {
             <Route path='/contact' element={<Contact></Contact>}></Route>
             <Route path='/shop' element={<Shop></Shop>}></Route>
             {/* <Route path='/' element={<}></Route> */}
+            <Route path='/cart' element={<Cart></Cart>}></Route>
             <Route path='*' element={<NotFound></NotFound>}></Route>
             </Routes> 
         </>

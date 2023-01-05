@@ -22,14 +22,21 @@ const MobileBottomNav = () => {
                     </Link>
                 </button>
 
-                <button>
-                    <Link  to='/cart' className='flex flex-col justify-center items-center'>
+                <label tabIndex='1' htmlFor="cart-drawer">
+                    <button>
                         <FaShoppingCart className='w-5 h-5'></FaShoppingCart>
                         <span className="btm-nav-label text-sm">Cart</span>
-                    </Link>
-                </button>
+                    </button>
+                </label>
+
+
+                {/* 
+                <div className="drawer-content">
+                    
+                </div> */}
+
                 <button>
-                    <Link  to='/' className='flex flex-col justify-center items-center'>
+                    <Link to='/' className='flex flex-col justify-center items-center'>
                         <BsPersonCircle className='w-5 h-5'></BsPersonCircle>
                         <span className="btm-nav-label text-sm">Account</span>
                     </Link>
