@@ -1,0 +1,79 @@
+.dark .accent{
+    background-color: #161B22;
+    opacity: 1;
+}
+.accent{
+    background-color: #FDF7FF;
+    opacity: 1;
+}
+
+.dark .accent2{
+    background-color: #0B2034;
+    opacity: 1;
+}
+.accent2{
+    background-color: #E8FDFF;
+    opacity: 1;
+}
+
+.dark .nav-color{
+    background-color: #0B1221;
+    opacity: 1;
+}
+.nav-color{
+    background-color: #F1FAFF;
+    opacity: 1;
+}
+
+.dark .primary-text{
+    color: #AAAFB9;   
+}
+.primary-text{
+    color: #1D2229;  
+}
+
+.dark .secondary-text{
+    color: #DCEEFF; 
+}
+.secondary-text{
+    color: #3E4756;    
+}
+
+.dark .text{
+    color: #ffffff; 
+}
+.text{
+    color: #000000;    
+}
+
+.info{
+    background-color: #0098FA;
+}
+.info-text{
+    color: #0098FA;
+}
+
+.error{
+    background-color: #F87272;
+}
+.error-text{
+    color: #F87272;
+}
+
+.success{
+    background-color: #36D399;
+}
+.success-text{
+    color: #36D399;
+}
+
+.warning{
+    background-color: #FBBD23;
+}
+.warning-text{
+    color: #FBBD23;
+}
+
+
+
+

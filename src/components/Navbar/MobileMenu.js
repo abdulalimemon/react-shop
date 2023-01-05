@@ -11,7 +11,7 @@ const MobileMenu = () => {
                     <>
                     </>
                 ) : (
-                    <RiMenuFoldLine onClick={() => setShowSidebar(!showSidebar)} className='w-5 h-5'></RiMenuFoldLine>
+                    <RiMenuFoldLine onClick={() => setShowSidebar(!showSidebar)} className='w-6 h-6 primary-text'></RiMenuFoldLine>
                 )}
             <div
                 className={`top-0 right-0 w-9/12 bg-blue-600  p-10 pl-20 text-white fixed h-full z-40  ease-in-out duration-300 ${showSidebar ? "translate-x-0 " : "translate-x-full"
@@ -24,7 +24,7 @@ const MobileMenu = () => {
                             className="text-xl text-white cursor-pointer fixed right-10 z-50"
                             onClick={() => setShowSidebar(!showSidebar)}
                         >
-                            <MdOutlineClose></MdOutlineClose>
+                            <MdOutlineClose className='w-6 h-6 primary-text'></MdOutlineClose>
                         </button>
                     </div>
                 ) : (
