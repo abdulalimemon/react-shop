@@ -41,24 +41,22 @@ const Navbar = () => {
 
     return (
         <>
-            <div className="navbar nav-color">
+            <div className="navbar nav-color py-0">
                 <div className='container mx-auto'>
-                    <div className="navbar justify-between">
-                        <Link className="btn btn-ghost normal-case text-xl primary-text" to='/' >React Shop</Link>
+                    <div className="navbar justify-between py-0">
+                        <Link className="text-xl primary-text font-semibold px-0" to='/' >React Shop</Link>
 
                         {/* Mobile And Tab Screen NavBar */}
                         <div className='flex justify-between items-center content-center lg:hidden'>
-                            <div className='mr-5'>
-                                <button
-                                    onClick={themeChanger}
-                                    className="text"
-                                >
-                                    {
-                                        dark ? <HiOutlineSun className='swap-on fill-current w-6 h-6'></HiOutlineSun>
-                                            : <BsFillMoonFill className='swap-off fill-current w-6 h-6'></BsFillMoonFill>
-                                    }
-                                </button>
-                            </div>
+                            <button
+                                onClick={themeChanger}
+                                className="text mr-5"
+                            >
+                                {
+                                    dark ? <HiOutlineSun className='swap-on fill-current w-6 h-6'></HiOutlineSun>
+                                        : <BsFillMoonFill className='swap-off fill-current w-6 h-6'></BsFillMoonFill>
+                                }
+                            </button>
                             <MobileMenu></MobileMenu>
                         </div>
                     </div>
@@ -69,29 +67,26 @@ const Navbar = () => {
                             <li><NavLink className={({ isActive }) =>
                                 isActive
                                     ? "text-lg font-bold text-black success mr-2"
-                                    : "text-lg font-bold text mr-2"
+                                    : "text-lg font-bold secondary-text mr-2"
                             } to='/'>Home</NavLink></li>
                             <li><NavLink className={({ isActive }) =>
                                 isActive
                                     ? "text-lg font-bold text-black success mr-2"
-                                    : "text-lg font-bold text mr-2"
+                                    : "text-lg font-bold secondary-text mr-2"
                             } to='/about'>About</NavLink></li>
                             <li><NavLink className={({ isActive }) =>
                                 isActive
                                     ? "text-lg font-bold text-black success mr-2"
-                                    : "text-lg font-bold text mr-2"
+                                    : "text-lg font-bold secondary-text mr-2"
                             } to='/contact'>Contact</NavLink></li>
                             <li><NavLink className={({ isActive }) =>
                                 isActive
                                     ? "text-lg font-bold text-black success mr-2"
-                                    : "text-lg font-bold text mr-2"
+                                    : "text-lg font-bold secondary-text mr-2"
                             } to='/login'>Login</NavLink></li>
                             <div className='hidden lg:flex justify-between items-center content-center'>
                                 <div className='ml-3'>
-                                    <button
-                                        onClick={themeChanger}
-                                        className="text"
-                                    >
+                                    <button onClick={themeChanger} className="text">
                                         {
                                             dark ? <HiOutlineSun className='swap-on fill-current w-7 h-7'></HiOutlineSun>
                                                 : <BsFillMoonFill className='swap-off fill-current w-7 h-7'></BsFillMoonFill>

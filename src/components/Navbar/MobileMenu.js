@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { RiMenuFoldLine } from "react-icons/ri";
+import { HiMenuAlt3 } from "react-icons/hi";
 import { MdOutlineClose } from "react-icons/md";
 import { HiOutlineMenuAlt1 } from "react-icons/hi";
 
@@ -12,7 +12,7 @@ const MobileMenu = () => {
                 <>
                 </>
             ) : (
-                <RiMenuFoldLine onClick={() => setShowSidebar(!showSidebar)} className='w-6 h-6 primary-text'></RiMenuFoldLine>
+                <HiMenuAlt3 onClick={() => setShowSidebar(!showSidebar)} className='w-6 h-6 primary-text'></HiMenuAlt3>
             )}
             <div className={`top-0 right-0 w-10/12  px-5 py-8 bg-[#161B22] fixed h-full z-50  ease-in-out duration-300 ${showSidebar ? "translate-x-0 " : "translate-x-full"
                 }`} >
