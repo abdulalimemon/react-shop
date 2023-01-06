@@ -23,22 +23,22 @@ const Footer = () => {
 
                         <ul className="flex items-center space-x-5 mt-9">
                             <li>
-                                <Link className='primary-text hover:text-[#0098FA] hover:dark:text-[#36D399]'>
+                                <Link className='primary-text hover:text-[#36D399] hover:dark:text-[#36D399]'>
                                     <BsFacebook className='w-7 h-7'></BsFacebook>
                                 </Link>
                             </li>
                             <li>
-                                <Link className='primary-text hover:text-[#0098FA] hover:dark:text-[#36D399]'>
+                                <Link className='primary-text hover:text-[#36D399] hover:dark:text-[#36D399]'>
                                     <BsInstagram className='w-7 h-7'></BsInstagram>
                                 </Link>
                             </li>
                             <li>
-                                <Link className='primary-text hover:text-[#0098FA] hover:dark:text-[#36D399]'>
+                                <Link className='primary-text hover:text-[#36D399] hover:dark:text-[#36D399]'>
                                     <BsTwitter className='w-7 h-7'></BsTwitter>
                                 </Link>
                             </li>
                             <li>
-                                <Link className='primary-text hover:text-[#0098FA] hover:dark:text-[#36D399]'>
+                                <Link className='primary-text hover:text-[#36D399] hover:dark:text-[#36D399]'>
                                     <BsYoutube className='w-7 h-7'></BsYoutube>
                                 </Link>
                             </li>
@@ -49,19 +49,19 @@ const Footer = () => {
                         <p className="text-sm font-bold tracking-widest primary-text uppercase">Company</p>
                         <ul className="mt-6 space-y-4">
                             <li>
-                                <Link to="/about" className="flex text-base primary-text transition-all duration-200 font-medium hover:text-[#0098FA] hover:dark:text-[#36D399]"> About </Link>
+                                <Link to="/about" className="flex text-base primary-text transition-all duration-200 font-medium hover:text-[#36D399] hover:dark:text-[#36D399]"> About </Link>
                             </li>
                             <li>
-                                <Link to="/contact" className="flex text-base primary-text transition-all duration-200 font-medium hover:text-[#0098FA] hover:dark:text-[#36D399]"> Contact </Link>
+                                <Link to="/contact" className="flex text-base primary-text transition-all duration-200 font-medium hover:text-[#36D399] hover:dark:text-[#36D399]"> Contact </Link>
                             </li>
                             <li>
-                                <Link to="/" className="flex text-base primary-text transition-all duration-200 font-medium hover:text-[#0098FA] hover:dark:text-[#36D399]"> Career </Link>
+                                <Link to="/" className="flex text-base primary-text transition-all duration-200 font-medium hover:text-[#36D399] hover:dark:text-[#36D399]"> Career </Link>
                             </li>
                             <li>
-                                <Link to="/" className="flex text-base primary-text transition-all duration-200 font-medium hover:text-[#0098FA] hover:dark:text-[#36D399]"> Works </Link>
+                                <Link to="/" className="flex text-base primary-text transition-all duration-200 font-medium hover:text-[#36D399] hover:dark:text-[#36D399]"> Works </Link>
                             </li>
                             <li>
-                                <Link to="/" className="flex text-base primary-text transition-all duration-200 font-medium hover:text-[#0098FA] hover:dark:text-[#36D399]"> Features </Link>
+                                <Link to="/" className="flex text-base primary-text transition-all duration-200 font-medium hover:text-[#36D399] hover:dark:text-[#36D399]"> Features </Link>
                             </li>
                         </ul>
                     </div>
@@ -70,16 +70,16 @@ const Footer = () => {
                         <p className="text-sm font-bold tracking-widest primary-text uppercase">Help</p>
                         <ul className="mt-6 space-y-4">
                             <li>
-                                <Link to="/" className="flex text-base primary-text transition-all duration-200 font-medium hover:text-[#0098FA] hover:dark:text-[#36D399]"> Customer Support </Link>
+                                <Link to="/" className="flex text-base primary-text transition-all duration-200 font-medium hover:text-[#36D399] hover:dark:text-[#36D399]"> Customer Support </Link>
                             </li>
                             <li>
-                                <Link to="/" className="flex text-base primary-text transition-all duration-200 font-medium hover:text-[#0098FA] hover:dark:text-[#36D399]"> Delivery Details </Link>
+                                <Link to="/" className="flex text-base primary-text transition-all duration-200 font-medium hover:text-[#36D399] hover:dark:text-[#36D399]"> Delivery Details </Link>
                             </li>
                             <li>
-                                <Link to="/" className="flex text-base primary-text transition-all duration-200 font-medium hover:text-[#0098FA] hover:dark:text-[#36D399]"> Terms & Conditions </Link>
+                                <Link to="/" className="flex text-base primary-text transition-all duration-200 font-medium hover:text-[#36D399] hover:dark:text-[#36D399]"> Terms & Conditions </Link>
                             </li>
                             <li>
-                                <Link to="/" className="flex text-base primary-text transition-all duration-200 font-medium hover:text-[#0098FA] hover:dark:text-[#36D399]"> Privacy Policy </Link>
+                                <Link to="/" className="flex text-base primary-text transition-all duration-200 font-medium hover:text-[#36D399] hover:dark:text-[#36D399]"> Privacy Policy </Link>
                             </li>
                         </ul>
                     </div>
@@ -93,14 +93,15 @@ const Footer = () => {
                                     <div className="flex-1 w-full min-w-0">
                                         <div className="relative primary-text">
                                             <label for="email" className='border-none'></label>
-                                            <input type="email" name="email" id="email" placeholder="Enter email"
-                                                className="md:focus:outline-0 border-0 block w-full px-4 py-4 text-base text-center text-black placeholder-gray-500 transition-all duration-200 focus:outline-[#36D399] rounded-full sm:text-left focus:border-#36D399 focus:ring-0"
+                                            <input type="email" name="email" id="email" placeholder="Enter your email"
+                                                className="md:focus:outline-0  block w-full px-4 py-4 text-base text-center transition-all duration-200 focus:outline-[#36D399] outline-[#36D399]
+                                                focus-within:ring-[#36D399] rounded-full sm:text-left"
                                                 required
                                             />
                                         </div>
                                     </div>
 
-                                    <button type="submit" className=" inline-flex items-center justify-center w-full px-4 py-4 mt-4 font-semibold text-white transition-all duration-200 success border border-transparent rounded-full sm:w-auto sm:ml-4 sm:mt-0">
+                                    <button type="submit" className=" inline-flex items-center justify-center w-full px-4 py-4 mt-4 font-semibold text transition-all duration-200 success border border-transparent rounded-full sm:w-auto sm:ml-4 sm:mt-0">
                                         Subscribe
                                     </button>
                                 </div>
@@ -111,7 +112,7 @@ const Footer = () => {
 
                 <hr className="mt-16 mb-10 border-gray-600" />
 
-                <p className="text-md text-center text font-semibold mb-12 lg:mb-0">© Copyright {year}, All Rights Reserved by Postcraft</p>
+                <p className="text-md text-center text font-semibold mb-12 lg:mb-0">© Copyright {year}, All Rights Reserved by React Shop.</p>
             </div>
         </section>
     );
