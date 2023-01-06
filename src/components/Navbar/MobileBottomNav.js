@@ -2,7 +2,7 @@ import React from 'react';
 import { HiHome } from 'react-icons/hi';
 import { BsPersonCircle } from 'react-icons/bs';
 import { FaShoppingCart } from 'react-icons/fa';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
 const MobileBottomNav = () => {

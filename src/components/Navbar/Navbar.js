@@ -85,14 +85,12 @@ const Navbar = () => {
                                     : "text-lg font-bold secondary-text mr-2"
                             } to='/login'>Login</NavLink></li>
                             <div className='hidden lg:flex justify-between items-center content-center'>
-                                <div className='ml-3'>
-                                    <button onClick={themeChanger} className="text">
-                                        {
-                                            dark ? <HiOutlineSun className='swap-on fill-current w-7 h-7'></HiOutlineSun>
-                                                : <BsFillMoonFill className='swap-off fill-current w-7 h-7'></BsFillMoonFill>
-                                        }
-                                    </button>
-                                </div>
+                                <button onClick={themeChanger} className="text ml-3">
+                                    {
+                                        dark ? <HiOutlineSun className='swap-on fill-current w-7 h-7'></HiOutlineSun>
+                                            : <BsFillMoonFill className='swap-off fill-current w-7 h-7'></BsFillMoonFill>
+                                    }
+                                </button>
                             </div>
                         </ul>
                     </div>
