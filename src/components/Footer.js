@@ -18,7 +18,7 @@ const Footer = () => {
             <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
                 <div className="grid grid-cols-2 md:col-span-3 lg:grid-cols-6 gap-y-16 gap-x-12">
                     <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
-                        <h2 className="text-3xl font-semibold primary-text">React Shop</h2>
+                        <h2 className="text-2xl font-semibold primary-text">React Shop</h2>
                         <p className="text-base leading-relaxed primary-text mt-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
 
                         <ul className="flex items-center space-x-5 mt-9">
@@ -46,66 +46,72 @@ const Footer = () => {
                     </div>
 
                     <div>
-                        <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">Company</p>
-
+                        <p className="text-sm font-bold tracking-widest primary-text uppercase">Company</p>
                         <ul className="mt-6 space-y-4">
                             <li>
-                                <a href="#" title="" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> About </a>
+                                <Link to="/about" className="flex text-base primary-text transition-all duration-200 font-medium hover:text-[#0098FA] hover:dark:text-[#36D399]"> About </Link>
                             </li>
-
                             <li>
-                                <a href="#" title="" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Features </a>
+                                <Link to="/contact" className="flex text-base primary-text transition-all duration-200 font-medium hover:text-[#0098FA] hover:dark:text-[#36D399]"> Contact </Link>
                             </li>
-
                             <li>
-                                <a href="#" title="" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Works </a>
+                                <Link to="/" className="flex text-base primary-text transition-all duration-200 font-medium hover:text-[#0098FA] hover:dark:text-[#36D399]"> Career </Link>
                             </li>
-
                             <li>
-                                <a href="#" title="" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Career </a>
+                                <Link to="/" className="flex text-base primary-text transition-all duration-200 font-medium hover:text-[#0098FA] hover:dark:text-[#36D399]"> Works </Link>
+                            </li>
+                            <li>
+                                <Link to="/" className="flex text-base primary-text transition-all duration-200 font-medium hover:text-[#0098FA] hover:dark:text-[#36D399]"> Features </Link>
                             </li>
                         </ul>
                     </div>
 
                     <div>
-                        <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">Help</p>
-
+                        <p className="text-sm font-bold tracking-widest primary-text uppercase">Help</p>
                         <ul className="mt-6 space-y-4">
                             <li>
-                                <a href="#" title="" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Customer Support </a>
+                                <Link to="/" className="flex text-base primary-text transition-all duration-200 font-medium hover:text-[#0098FA] hover:dark:text-[#36D399]"> Customer Support </Link>
                             </li>
-
                             <li>
-                                <a href="#" title="" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Delivery Details </a>
+                                <Link to="/" className="flex text-base primary-text transition-all duration-200 font-medium hover:text-[#0098FA] hover:dark:text-[#36D399]"> Delivery Details </Link>
                             </li>
-
                             <li>
-                                <a href="#" title="" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Terms & Conditions </a>
+                                <Link to="/" className="flex text-base primary-text transition-all duration-200 font-medium hover:text-[#0098FA] hover:dark:text-[#36D399]"> Terms & Conditions </Link>
                             </li>
-
                             <li>
-                                <a href="#" title="" className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Privacy Policy </a>
+                                <Link to="/" className="flex text-base primary-text transition-all duration-200 font-medium hover:text-[#0098FA] hover:dark:text-[#36D399]"> Privacy Policy </Link>
                             </li>
                         </ul>
                     </div>
 
                     <div className="col-span-2 md:col-span-1 lg:col-span-2 lg:pl-8">
-                        <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">Subscribe to newsletter</p>
+                        <p className="text-sm font-bold tracking-widest primary-text uppercase">Subscribe to newsletter</p>
 
-                        <form action="#" method="POST" className="mt-6">
-                            <div>
-                                <label for="email" className="sr-only">Email</label>
-                                <input type="email" name="email" id="email" placeholder="Enter your email" className="block w-full p-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600" />
+                        <form className="mx-auto mt-8 accent2 lg:mx-0 sm:bg-transparent lg:mt-12 rounded-xl">
+                            <div className="p-4 sm:p-2 sm:bg-white sm:border-2 sm:border-transparent sm:rounded-full sm:focus-within:border-[#36D399] sm:focus-within:ring-1 sm:focus-within:ring-[#36D399]">
+                                <div className="flex flex-col items-start sm:flex-row">
+                                    <div className="flex-1 w-full min-w-0">
+                                        <div className="relative primary-text">
+                                            <label for="email" className='border-none'></label>
+                                            <input type="email" name="email" id="email" placeholder="Enter email"
+                                                className="md:focus:outline-0 border-0 block w-full px-4 py-4 text-base text-center text-black placeholder-gray-500 transition-all duration-200 focus:outline-[#36D399] rounded-full sm:text-left focus:border-#36D399 focus:ring-0"
+                                                required
+                                            />
+                                        </div>
+                                    </div>
+
+                                    <button type="submit" className=" inline-flex items-center justify-center w-full px-4 py-4 mt-4 font-semibold text-white transition-all duration-200 success border border-transparent rounded-full sm:w-auto sm:ml-4 sm:mt-0">
+                                        Subscribe
+                                    </button>
+                                </div>
                             </div>
-
-                            <button type="submit" className="inline-flex items-center justify-center px-6 py-4 mt-3 font-semibold text-white transition-all duration-200 bg-blue-600 rounded-md hover:bg-blue-700 focus:bg-blue-700">Subscribe</button>
                         </form>
                     </div>
                 </div>
 
-                <hr className="mt-16 mb-10 border-gray-200" />
+                <hr className="mt-16 mb-10 border-gray-600" />
 
-                <p className="text-sm text-center text-gray-600 mb-12 lg:mb-0">© Copyright {year}, All Rights Reserved by Postcraft</p>
+                <p className="text-md text-center text font-semibold mb-12 lg:mb-0">© Copyright {year}, All Rights Reserved by Postcraft</p>
             </div>
         </section>
     );
