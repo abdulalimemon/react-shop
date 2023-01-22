@@ -66,23 +66,23 @@ const Navbar = () => {
                         <ul className="menu menu-horizontal px-1">
                             <li><NavLink className={({ isActive }) =>
                                 isActive
-                                    ? "text-lg font-bold text-black success mr-2"
-                                    : "text-lg font-bold secondary-text mr-2"
+                                    ? "text-lg font-semibold success-text mr-2"
+                                    : "text-lg font-semibold secondary-text mr-2"
                             } to='/'>Home</NavLink></li>
                             <li><NavLink className={({ isActive }) =>
                                 isActive
-                                    ? "text-lg font-bold text-black success mr-2"
-                                    : "text-lg font-bold secondary-text mr-2"
+                                    ? "text-lg font-semibold success-text mr-2"
+                                    : "text-lg font-semibold secondary-text mr-2"
                             } to='/about'>About</NavLink></li>
                             <li><NavLink className={({ isActive }) =>
                                 isActive
-                                    ? "text-lg font-bold text-black success mr-2"
-                                    : "text-lg font-bold secondary-text mr-2"
+                                    ? "text-lg font-semibold success-text mr-2"
+                                    : "text-lg font-semibold secondary-text mr-2"
                             } to='/contact'>Contact</NavLink></li>
                             <li><NavLink className={({ isActive }) =>
                                 isActive
-                                    ? "text-lg font-bold text-black success mr-2"
-                                    : "text-lg font-bold secondary-text mr-2"
+                                    ? "text-lg font-semibold  success-text mr-2"
+                                    : "text-lg font-semibold secondary-text mr-2"
                             } to='/login'>Login</NavLink></li>
                             <div className='hidden lg:flex justify-between items-center content-center'>
                                 <button onClick={themeChanger} className="text ml-3">

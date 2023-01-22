@@ -12,7 +12,7 @@ const HomeBanner = () => {
                             <h1 className="text-4xl font-bold primary-text sm:text-6xl lg:text-7xl">
                                 Collaborate remotely, with
                                 <div className="relative inline-flex">
-                                    <span className="absolute inset-x-0 bottom-0 border-b-[30px] border-[#4ADE80] dark:border-[#000000]"></span>
+                                    <span className="absolute inset-x-0 bottom-0 border-b-[30px] border-[#4ADE80] dark:border-[#666666]"></span>
                                     <h1 className="relative text-4xl font-bold primary-text sm:text-6xl lg:text-7xl">Postcrafts.</h1>
                                 </div>
                             </h1>
