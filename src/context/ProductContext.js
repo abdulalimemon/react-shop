@@ -1,16 +1,33 @@
 import axios from 'axios';
-import { useEffect, useContext, createContext } from 'react';
+import { useEffect, useContext, createContext, useReducer } from 'react';
+import reducer from '../reducer/ProductReducer';
 
 const AppContext = createContext();
 
 const API = 'products.json';
 
+const initialState = {
+    isLoading: false,
+    isError: false,
+    products: [],
+    featureProducts: [],
+
+
+}
+
 const AppProvider = ({ children }) => {
 
-    const getProducts = async(url) => {
-        const res = await axios.get(url);
-        const products = await res.data;
-        console.log(products);
+    const [state, dispatch] = useReducer(reducer, initialState);
+
+    const getProducts = async (url) => {
+        dispatch({ type: 'SET_LOADING'});
+        try {
+            const res = await axios.get(url);
+            const products = await res.data;
+            dispatch({ type: 'SET_API_DATA', payload: products });
+        } catch (error) {
+            dispatch({ type: 'SET_API_ERROR'});
+        }
     }
 
     useEffect(() => {
@@ -18,9 +35,10 @@ const AppProvider = ({ children }) => {
     }, []);
 
     return (
-        <AppContext.Provider value='emon'>
+        <AppContext.Provider value={{ ...state }}>
             {children}
-        </AppContext.Provider>);
+        </AppContext.Provider>
+    );
 };
 
 const useProductContext = () => {

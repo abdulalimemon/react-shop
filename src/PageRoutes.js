@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Cart from './components/Cart/Cart';
-import NotFound from './components/NotFound';
+import NotFound from './pages/NotFound/NotFound';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import Home from './pages/Home/Home';
