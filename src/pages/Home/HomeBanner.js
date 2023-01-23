@@ -9,13 +9,13 @@ const HomeBanner = () => {
                 <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                     <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
                         <div>
-                            <h1 className="text-4xl font-bold primary-text sm:text-6xl lg:text-7xl">
+                            <h2 className="text-4xl font-bold primary-text sm:text-6xl lg:text-7xl">
                                 Collaborate remotely, with
                                 <div className="relative inline-flex">
                                     <span className="absolute inset-x-0 bottom-0 border-b-[30px] border-[#4ADE80] dark:border-[#666666]"></span>
                                     <h1 className="relative text-4xl font-bold primary-text sm:text-6xl lg:text-7xl">Postcrafts.</h1>
                                 </div>
-                            </h1>
+                            </h2>
 
                             <p className="mt-8 text-base primary-text sm:text-xl">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat.</p>
 

@@ -92,7 +92,7 @@ const Footer = () => {
                                 <div className="flex flex-col items-start sm:flex-row">
                                     <div className="flex-1 w-full min-w-0">
                                         <div className="relative primary-text">
-                                            <label for="email" className='border-none'></label>
+                                            <label htmlFor="email" className='border-none'></label>
                                             <input type="email" name="email" id="email" placeholder="Enter your email"
                                                 className="md:focus:outline-0  block w-full px-4 py-4 text-base text-center transition-all duration-200 focus:outline-[#36D399] outline-[#36D399]
                                                 focus-within:ring-[#36D399] rounded-full sm:text-left"

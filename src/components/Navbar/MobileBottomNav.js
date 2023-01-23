@@ -12,7 +12,7 @@ const MobileBottomNav = () => {
 
                 <NavLink to='/' className={({ isActive }) =>
                     isActive
-                        ? "primary-text active"
+                        ? "primary-text active border-[#36D399]"
                         : "primary-text"}>
                     <button className='flex flex-col justify-center items-center'>
                         <HiHome className='w-5 h-5'></HiHome>
@@ -22,7 +22,7 @@ const MobileBottomNav = () => {
 
                 <NavLink to='/account' className={({ isActive }) =>
                     isActive
-                        ? "primary-text active"
+                        ? "primary-text active border-[#36D399]"
                         : "primary-text"}>
                     <button className='flex flex-col justify-center items-center'>
                         <BsPersonCircle className='w-5 h-5'></BsPersonCircle>
@@ -32,7 +32,7 @@ const MobileBottomNav = () => {
 
                 <NavLink to='/c' className={({ isActive }) =>
                     isActive
-                        ? "primary-text active"
+                        ? "primary-text active border-[#36D399]"
                         : "primary-text"}>
                     <button className='flex flex-col justify-center items-center'>
                         <FaShoppingCart className='w-5 h-5'></FaShoppingCart>
@@ -42,7 +42,7 @@ const MobileBottomNav = () => {
 
                 <NavLink to='/a' className={({ isActive }) =>
                     isActive
-                        ? "primary-text active"
+                        ? "primary-text active border-[#36D399]"
                         : "primary-text"}>
                     <button className='flex flex-col justify-center items-center'>
                         <HiHome className='w-5 h-5'></HiHome>
