@@ -11,8 +11,6 @@ const initialState = {
     isError: false,
     products: [],
     featureProducts: [],
-
-
 }
 
 const AppProvider = ({ children }) => {

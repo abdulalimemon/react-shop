@@ -6,6 +6,7 @@ import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import Home from './pages/Home/Home';
 import Shop from './pages/Shop/Shop';
+import SingleProduct from './pages/SingleProduct/SingleProduct';
 
 const PageRoutes = () => {
     return (
@@ -17,6 +18,7 @@ const PageRoutes = () => {
             <Route path='/contact' element={<Contact></Contact>}></Route>
             <Route path='/shop' element={<Shop></Shop>}></Route>
             {/* <Route path='/' element={<}></Route> */}
+            <Route path='/product/:id' element={<SingleProduct></SingleProduct>}></Route>
             <Route path='/cart' element={<Cart></Cart>}></Route>
             <Route path='*' element={<NotFound></NotFound>}></Route>
             </Routes> 
